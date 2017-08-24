@@ -1,5 +1,6 @@
 # 全局安装
 npm install hexo-cli -g
+hexo new "my new post" (新建文章)
 
 hexo g (生成博客)
 hexo d(部署deploy)
