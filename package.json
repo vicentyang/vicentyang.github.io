@@ -1,12 +1,15 @@
 {
   "name": "hexo-site",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "hexo": {
-    "version": "3.2.2"
+    "version": "3.9.0"
+  },
+  "scripts": {
+    "publish": "hexo g && hexo d"
   },
   "dependencies": {
-    "hexo": "^3.2.0",
+    "hexo": "^3.9.0",
     "hexo-asset-image": "0.0.3",
     "hexo-deployer-git": "^0.2.0",
     "hexo-generator-archive": "^0.1.4",
